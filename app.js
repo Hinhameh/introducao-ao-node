@@ -13,7 +13,7 @@ db.authenticate()
 app.use(express.json());
 
 // Importar rotas
-const produtosRoutes = require('./rotas/Rotasproduto');
+const produtosRoutes = require('./rotas/Rotasprodutos');
 
 // Usar rotas
  app.use('/api', produtosRoutes);
